@@ -10,7 +10,6 @@ export default defineConfig({
       script: {
         defineModel: true,
         propsDestructure: true,
-        
       },
     }),
   ],

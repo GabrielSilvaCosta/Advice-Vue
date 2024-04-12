@@ -2,10 +2,8 @@
   <div class="card">
     <div class="container">
       <div class="advice">
-        <h1 class="advice-title">Advice #{{ advice?.slip.id }}</h1>
-        <p class="advice-text">
-          {{ advice?.slip.advice }}
-        </p>
+        <h1 class="advice-title">Advice #{{ advice?.id }}</h1>
+        <p class="advice-text">"{{ advice?.advice }}"</p>
         <img
           src="./img/pattern-divider-desktop.svg"
           alt="divider"
